@@ -32,6 +32,7 @@ Header("Location: index.php");
 ?>
    
     <a href="index.php">Retour</a>
+    
 </body>
 </html>
 
