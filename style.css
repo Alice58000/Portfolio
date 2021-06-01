@@ -1,0 +1,436 @@
+body {
+    background-image: url(fond6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+}
+
+li {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+ul li a {
+    display: block;
+    width: 135px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    transition-duration: 0.4s; 
+}
+
+@media all and (max-width: 1000px) {
+
+    ul 
+    {
+        flex-direction:column;
+        align-items:center;
+      
+    }
+}
+
+#alice {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media all and (max-width: 1000px) {
+
+    #alice
+    {
+        flex-direction:column;
+        margin-bottom: 100px;
+       
+       
+    }
+}
+
+h1 {
+    
+    justify-content: center;
+    color:#bf5b94;
+    font-size: 150px;
+    padding: 80px;
+    margin-left: 250px;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, -2px 0 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px 2px 0 white, -2px -2px 0 black;
+}
+
+@media all and (max-width: 1000px) {
+
+    h1 
+    {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 70px;
+       
+    }
+}
+
+.moi {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: -50px;
+    padding: -50px;
+    font-family:cursive;
+}
+
+@media all and (max-width: 1000px)
+{
+    .moi
+    {
+        text-align: center;
+    }
+}
+
+nav {
+    width: 100%;
+    height:70px;
+    background: transparent;
+    position: fixed;
+    transition: all 0.3s ease-out;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.anim-nav {
+    background: #333;
+    color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+@media all and (max-width: 1000px) {
+
+    nav
+    {
+        position: static;
+    }
+}
+
+.menu :hover {
+    color: #bf5b94;
+}
+
+.moi2 {
+    margin-left: 0px;
+    border-radius: 80px;
+    border: #bf5b94 solid 7px;
+    vertical-align:auto; 
+    margin-top: 100px;
+}
+
+@media all and (max-width: 1000px) {
+
+    .moi2
+    {
+        height: 200px;
+        width: 160px;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-left: 80px;
+        margin-top: 300px;
+    }
+}
+
+.propos {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media all and (max-width: 1000px) {
+
+    .propos
+    {
+     text-align: center;
+        
+    }
+}
+
+#titre {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+   font-family: cursive;
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+@media all and (max-width: 1000px) {
+
+    #titre
+    {
+       text-align: center;
+    }
+}
+
+#debut {
+    display: flex;
+}
+
+.github {
+    width: 80px;
+    height: 80px;
+   display: flex;
+   margin-top: -70px;
+   margin-left: 10px;
+   width: 50px;
+   height: 50px;
+}
+
+#projet {
+    display: flex;
+    margin-top: 200px;
+    flex-wrap:wrap ;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+#projet2 {
+    display: flex;
+    justify-content:center ;
+
+}
+
+@media all and (max-width: 1000px) {
+
+    #projet2
+    {
+        flex-direction: column;
+        
+       
+    }
+}
+
+.duo1  {
+    
+    border: 5px #bf5b94 solid;
+    width: 330px;
+    height: 158px;
+    margin: 20px;
+}
+
+@media all and (max-width: 1000px) {
+
+    .duo1
+    {
+        flex-direction: column;
+        
+       
+    }
+}
+
+#competence {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 70px;
+    font-family: cursive;
+}
+
+@media all and (max-width: 1000px) {
+
+    #competence
+    {
+      text-align: center;
+        
+    }
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+@media all and (max-width: 1000px) {
+
+    .logo
+    {
+       flex-direction: column;
+        
+    }
+}
+
+.html {
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+   
+.html :hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+@media all and (max-width: 1000px) {
+
+    .html
+    {
+      flex-direction: column;
+
+        
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+    .html :hover
+    {
+      flex-direction: column;
+        
+    }
+}
+
+.logo img {
+    width: 150px;
+    margin: 10px;
+}
+
+@media all and (max-width: 1000px) {
+
+    .logo img
+    {
+     flex-direction: column;
+        
+    }
+}
+
+.logo2 {
+    width: 150px;
+    height: 150px;
+}
+
+@media all and (max-width: 1000px) {
+
+    .logo2
+    {
+        flex-direction: column;
+        
+    }
+}
+  
+.lien {
+    
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+@media all and (max-width: 1000px) {
+
+    .lien
+    {
+        text-align: center;
+       
+    }
+}
+
+.formulaire {
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.contact {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+@media all and (max-width: 1000px) {
+
+    .contact
+    {
+       text-align: center;
+        
+    }
+}
+
+.form {
+
+    width: 250px;
+    font-family:cursive;
+    color: #bf5b94;
+    text-align: center;
+}
+
+@media all and (max-width: 1000px) {
+
+    .form
+    {
+        text-align: center;
+    }
+}
+
+::placeholder {
+    color:#bf5b94 ;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+input {
+    color: #bf5b94;
+    font-size: 20px;
+    font-family: cursive;
+   
+}
+
+@media all and (max-width: 1000px) {
+
+    .input
+    {
+       margin-left: 100px;
+        
+    }
+}
+
+.bouton {
+    background-color: darkred;
+    justify-content: center;
+}
+
+#test {
+    color: white;
+}
+
+.afficher {
+    color: white;
+}
+
+.deco {
+    text-align: center;
+    font-size: 40px;
+}
+  
